@@ -1,18 +1,24 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
+# Archivo de clase compilad
+* .clase
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# archivo de registro
+* .registro
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Archivos BlueJ
+* .ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Archivos del paquete #
+* .jar
+* .guerra
+* .nar
+* .oreja
+* .zip
+* .tar.gz
+* .rar
+
+# registros de fallas de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
