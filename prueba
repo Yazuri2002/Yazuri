@@ -1,1 +1,5 @@
 carpeta/prueba/prueba1.xml
+<? versión xml = " 1.0 " codificación = " UTF-8 " ?>
+< proyecto-privado  xmlns = " http://www.netbeans.org/ns/proyecto-privado/1 " >
+    < editor-bookmarks  xmlns = " http://www.netbeans.org/ns/editor-bookmarks/2 "  lastBookmarkId = " 0 " />
+</ proyecto-privado >
