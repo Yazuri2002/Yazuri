@@ -15,4 +15,57 @@ javac.classpath = \
 # Lista separada por espacios de opciones javac adicionales
 javac.compilarargs =
 javac.depreciación = false
-	
+javac.external.vm=true
+javac.modulepath=
+javac.processormodulepath=
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=14
+javac.target=14
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+javac.test.modulepath=\
+    ${javac.modulepath}
+javac.test.processorpath=\
+    ${javac.test.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.html5=false
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree = false
+javadoc.privado = falso
+javadoc.splitindex = verdadero
+javadoc.uso = verdadero
+javadoc.version = false
+javadoc.titulo de ventana =
+# Los módulos raíz adicionales jlink para resolver
+jlink.módulos adicionales =
+# Los parámetros de línea de comando adicionales de jlink
+jlink.parametro adicional =
+jlink.launcher = verdadero
+jlink.launcher.name = APP_VENTAS
+clase.principal =
+manifiesto.archivo = manifiesto.mf
+meta.inf.dir = ${src.dir}/META-INF
+mkdist.deshabilitado = falso
+plataforma.activa = plataforma_predeterminada
+ejecutar.classpath = \
+    ${javac.classpath}:\
+    ${construir.clases.dir}
+    # Lista separada por espacios de argumentos de JVM utilizados al ejecutar el proyecto.
+# También puede definir propiedades separadas como run-sys-prop.name=value en lugar de -Dname=value.
+# Para establecer las propiedades del sistema para las pruebas unitarias, defina test-sys-prop.name=value:
+ejecutar.jvmargs =
+ejecutar.modulepath = \
+    ${javac.modulepath}
+ejecutar.prueba.classpath = \
+    ${javac.test.classpath}:\
+    ${construir.prueba.clases.dir}
+ejecutar.prueba.modulepath = \
+    ${javac.test.modulepath}
+fuente.codificación = UTF-8
+origen.dir = origen
+prueba.src.dir = prueba
